@@ -4,7 +4,7 @@ public class PlayerCollision : MonoBehaviour {
 
     public PlayerMovement movement;
 
-    // Update is called once per frame
+    // file must be named like this to execute a collision related event
     void OnCollisionEnter (Collision collisionInfo) {
         if (collisionInfo.collider.tag == "Obstacle") {
             movement.enabled = false;

@@ -4,12 +4,7 @@ public class PlayerMovement : MonoBehaviour {
     public Rigidbody rb;
 
     public float forwardForce = 1000f;
-    public float sidewaysForce = 700f;
-    
-    // Start is called before the first frame update
-    void Start() {
-
-    }
+    public float sidewaysForce = 600f;
 
     // FixedUpdate naming while manipulating physics, is called once per frame
     void FixedUpdate() {
